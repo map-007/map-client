@@ -30,9 +30,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="min-h-screen w-full bg-slate-900 flex items-center justify-center">
-          <div className="w-[430px] h-screen bg-white rounded-xl shadow-lg overflow-hidden">
+          <div className="w-[430px] bg-white rounded-t-xl shadow-lg overflow-x-hidden no-scrollbar">
             <Header />
-            <div className="p-4 h-screen">{children}</div>
+            <div className="px-4 py-20 min-h-screen">{children}</div>
           </div>
           <Footer />
         </div>

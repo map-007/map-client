@@ -35,7 +35,7 @@ const SignUpPage = () => {
         autoComplete="off"
         onChange={(e) => setEmail(e.target.value)}
       />
-      <Button className="mt-4 w-full h-12" size={"lg"} type="submit">
+      <Button className="mt-10 w-full h-12" size={"lg"} type="submit">
         CONTINUE
       </Button>
 

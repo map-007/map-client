@@ -9,7 +9,7 @@ const Footer = () => {
   const pathname = usePathname();
 
   return (
-    <footer className="fixed bottom-0 left-1/2 -translate-x-1/2 w-[430px] bg-white border-t border-gray-200 px-4 py-2 rounded-b-xl shadow-lg">
+    <footer className="fixed bottom-0 left-1/2 -translate-x-1/2 w-[430px] bg-white border-t border-gray-200 p-2 rounded-b-xl shadow-lg">
       <nav>
         <ul className="flex justify-between items-center px-6">
           <li className="rounded-md hover:bg-gray-100 cursor-pointer">

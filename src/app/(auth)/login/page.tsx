@@ -80,7 +80,7 @@ const LoginPage = () => {
       {!isValidEmail ? (
         <Button
           disabled={!email}
-          className="mt-4 w-full h-12 uppercase"
+          className="mt-10 w-full h-12 uppercase"
           size={"lg"}
           type="submit"
           onClick={handleLogin}
